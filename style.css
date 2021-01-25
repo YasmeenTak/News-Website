@@ -1,0 +1,179 @@
+* {
+  font-family: 'Cairo', sans-serif;
+}
+body {
+  background-color: #e7e7e7;
+}
+.allNav {
+  border: 1px solid #1253a0;
+  background-color: white;
+}
+.socialDiv {
+  background-color: white;
+}
+
+.socialDiv > div > p {
+  color: #3a549a;
+  font-weight: bold;
+  text-align: center;
+}
+
+.theNewsNav {
+  border: 1px solid #1253a0;
+}
+.newsDetails {
+  background-color: #4166cb;
+  color: white;
+  padding: 5px;
+}
+
+.theNewsDiv {
+  border: 1px solid #1253a0;
+}
+
+.theNewsTitle {
+  color: #3a549a;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.fromTo {
+  background-color: white;
+  border-radius: 10px;
+  height: auto;
+  padding: 50px;
+}
+.fromToImg {
+  position: absolute;
+  top: -30px;
+  width: 50px;
+  height: 50px;
+}
+
+.fromToTitle {
+  background-color: white;
+  border-radius: 15px;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  right: 80px;
+  top: -20px;
+  font-size: 14px;
+}
+.fromToP,
+.blogP {
+  font-size: small;
+  font-weight: bold;
+  position: absolute;
+  top: 40px;
+}
+
+.blog {
+  background-color: white;
+  border-radius: 10px;
+  height: auto;
+  padding: 60px;
+}
+.todayWisdomP {
+  font-size: small;
+  font-weight: bold;
+  padding-top: 25px;
+}
+.todayWisdom,
+.music {
+  background-color: white;
+  border-radius: 10px;
+  height: auto;
+}
+
+.playMusicDiv {
+  position: absolute;
+  margin: auto;
+  top: 35px;
+  left: 20px;
+}
+.musicPlayImg {
+  width: 30px;
+}
+.musicSoundImg {
+  width: 145px;
+}
+
+.officialName {
+  color: #ca181f;
+}
+.logoDiv {
+  margin: auto;
+  background-color: white;
+}
+.logoImg {
+  width: 60px;
+  height: 60px;
+  margin: auto;
+}
+
+.logoTitle {
+  font-size: large;
+  text-align: center;
+  color: #1253a0;
+  font-weight: bold;
+}
+
+.ads1 {
+  width: 100%;
+}
+.ads2 {
+  width: 82%;
+  height: 80%;
+  display: block;
+  margin: auto;
+}
+
+.lastNews,
+.sport,
+.nineClock,
+.a {
+  border: 1px solid black;
+}
+
+.ads4,
+.ads5 {
+  width: 100%;
+  margin: auto;
+}
+
+nav {
+  background-color: #3a549a;
+}
+nav > div > ul > li > a {
+  color: white;
+  padding: 10px 30px;
+}
+
+nav > div > ul {
+  display: flex;
+  align-items: stretch; /* Default */
+  justify-content: space-between;
+  width: 92%;
+  margin: 0;
+  padding: 0;
+}
+
+nav > div > ul > li {
+  display: block;
+  flex: 0 1 auto; /* Default */
+  list-style-type: none;
+}
+
+footer {
+  background-color: #3a549a;
+  color: white;
+}
+
+.scndSectionFooter > ul > li > a {
+  color: white;
+}
+.firstSectionFooter > ul > li > a {
+  color: white;
+}
