@@ -188,3 +188,29 @@ footer {
 .lastNewsw {
   width: 100%;
 }
+
+.textMaxLine {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  -webkit-box-orient: vertical;
+  color: #707070;
+}
+
+#cardMaxLine {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+  font-size: small;
+}
+
+.cardSportTitle {
+  font-weight: bold;
+}
+
+.videoDiv>video {
+  border-radius: 10px;
+}
