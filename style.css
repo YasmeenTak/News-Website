@@ -166,14 +166,25 @@ nav > div > ul > li {
   list-style-type: none;
 }
 
-footer {
-  background-color: #3a549a;
-  color: white;
+.card > div > div > p {
+  font-weight: bold;
+  margin: auto;
 }
 
+.cardNews > div > div {
+  margin: auto;
+}
 .scndSectionFooter > ul > li > a {
   color: white;
 }
 .firstSectionFooter > ul > li > a {
   color: white;
+}
+footer {
+  background-color: #3a549a;
+  color: white;
+}
+
+.lastNewsw {
+  width: 100%;
 }
