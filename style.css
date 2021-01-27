@@ -214,3 +214,12 @@ footer {
 .videoDiv>video {
   border-radius: 10px;
 }
+
+.fashaText{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 9; /* number of lines to show */
+  -webkit-box-orient: vertical;
+  color: #707070;
+}
