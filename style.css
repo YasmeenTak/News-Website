@@ -4,20 +4,100 @@
 body {
   background-color: #e7e7e7;
 }
+/* navbar */
 .allNav {
   border: 1px solid #1253a0;
   background-color: white;
 }
-.socialDiv {
-  background-color: white;
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all 0.5s;
+}
+nav ul li a:hover {
+  color: #3a549a !important;
+  font-weight: bold;
+}
+/* SHIFT */
+nav.shift ul li a {
+  position: relative;
+  z-index: 1;
+}
+nav.shift ul li a:hover {
+  color: #3a549a;
+}
+nav.shift ul li a:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 1px;
+  content: '.';
+  color: transparent;
+  background: white;
+  visibility: none;
+  opacity: 0;
+  z-index: -1;
+}
+nav.shift ul li a:hover:after {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
 }
 
-.socialDiv > div > p {
+/*End navbar */
+
+.moreDropdown {
+  min-width: 8.5rem !important ;
+}
+.moreDropdown > a {
+  font-size: small;
+  font-weight: bold;
+}
+.moreDropdown > .dropdown-item {
+  padding: 1px 6px 1px;
+  margin: 5px;
+  color: black;
+}
+.socialDiv {
+  background-color: white;
+  margin: auto;
+}
+.socialDiv > div {
+  margin: auto;
+}
+
+.socialDiv > div > div > p {
   color: #3a549a;
   font-weight: bold;
   text-align: center;
 }
 
+.socialDiv > div > div > a > i {
+  color: #b6b6b6;
+  font-size: large;
+}
+.socialDiv > div > div > a {
+  color: inherit !important;
+}
+
+.faceHover:hover {
+  color: #4267b2;
+}
+.twitterHover:hover {
+  color: #03a9f4;
+}
+.youtubeHover:hover {
+  color: #ff0000;
+}
+
+.fa-search {
+  font-size: large;
+}
 .theNewsNav {
   border: 1px solid #1253a0;
 }
@@ -133,7 +213,7 @@ body {
 .lastNews,
 .sport,
 .nineClock,
-.a {
+.z {
   border: 1px solid black;
 }
 
@@ -269,3 +349,4 @@ footer {
   display: inline-block; /* Lay items in a horizontal line */
   padding: 0 2rem;
 }
+
