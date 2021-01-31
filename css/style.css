@@ -39,6 +39,7 @@ nav.shift ul li a:after {
   content: '.';
   color: transparent;
   background: white;
+  border-radius: 10px;
   visibility: none;
   opacity: 0;
   z-index: -1;
@@ -47,6 +48,12 @@ nav.shift ul li a:hover:after {
   opacity: 1;
   visibility: visible;
   height: 100%;
+}
+
+.dropdownArrow {
+  position: absolute;
+  right: 52px;
+  top: 6px;
 }
 
 /*End navbar */
@@ -63,6 +70,18 @@ nav.shift ul li a:hover:after {
   margin: 5px;
   color: black;
 }
+/* 
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-right: 0.255em;
+  vertical-align: 0.255em;
+  content: '';
+  color: white;
+  border-top: 0.3em solid;
+  border-left: 0.3em solid transparent;
+  border-bottom: 0;
+  border-right: 0.3em solid transparent;
+}  */
 .socialDiv {
   background-color: white;
   margin: auto;
@@ -98,23 +117,18 @@ nav.shift ul li a:hover:after {
 .fa-search {
   font-size: large;
 }
-.theNewsNav {
-  border: 1px solid #1253a0;
-}
+
 .newsDetails {
-  background-color: #4166cb;
+  background-color: #128bd3;
   color: white;
   padding: 5px;
-}
-
-.theNewsDiv {
-  border: 1px solid #1253a0;
 }
 
 .theNewsTitle {
   color: #3a549a;
   font-weight: bold;
   padding: 5px;
+  border: 1px solid #1253a0;
 }
 
 .fromTo {
@@ -264,11 +278,26 @@ footer {
   background-color: #3a549a;
   color: white;
 }
-
+.btnMore {
+  border: none;
+  background: none;
+  color: #3a549a;
+  font-weight: bold;
+  float: left;
+  font-size: small;
+}
 .lastNewsw {
   width: 100%;
 }
-
+.cardHightSport {
+  min-height: 335px;
+}
+.cardSameHight {
+  min-height: 332px;
+}
+.ads2Img {
+  height: 167px;
+}
 .textMaxLine {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -285,6 +314,14 @@ footer {
   -webkit-line-clamp: 2; /* number of lines to show */
   -webkit-box-orient: vertical;
   font-size: small;
+}
+
+.textCard6 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* number of lines to show */
+  -webkit-box-orient: vertical;
 }
 
 .cardSportTitle {
@@ -307,7 +344,9 @@ footer {
 .fa-copyright {
   margin-bottom: -2px;
 }
-
+.fashaCard {
+  min-height: 410px;
+}
 /* OUTER CONTAINER */
 .tcontainer {
   width: 100%;
@@ -334,11 +373,11 @@ footer {
   /* Basically move items from right side of screen to left in infinite loop */
   display: inline-block;
   white-space: nowrap;
-  padding-right: 100%;
+  padding-left: 100%;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-name: ticker;
-  animation-duration: 10s;
+  animation-duration: 20s;
 }
 .ticker-move:hover {
   animation-play-state: paused; /* Pause scroll on mouse hover */
@@ -350,3 +389,85 @@ footer {
   padding: 0 2rem;
 }
 
+/* ------------------------ */
+
+@import url(https://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+
+@keyframes ticker {
+  0% {
+    transform: translate3d(-150%, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+.wrp {
+  width: 90%;
+  overflow: hidden;
+  height: 4rem;
+  margin: 0 auto;
+}
+body {
+  position: relative;
+  background-color: #eee;
+  font-weight: 800;
+  font-family: 'Alef Hebrew', “Helvetica Neue”, Helvetica, Arial, sans-serif;
+}
+.ticker-wrap {
+  position: relative;
+  overflow: hidden;
+  height: 4rem;
+  background-color: #fff;
+  padding-left: 100%;
+  /* // offset items to begin */
+  box-sizing: border-box;
+  display: inline-block;
+  /*border: 4px dashed purple;*/
+}
+
+.ticker {
+  overflow: hidden;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 4rem;
+  line-height: 4rem;
+  white-space: nowrap;
+  padding-right: -100%;
+}
+.ticker-wrap:hover .ticker {
+  animation-play-state: paused;
+}
+.anim {
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: ticker;
+}
+.ticker .moving {
+  /*border: 4px dashed red;*/
+}
+.ticker .moving a {
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+  margin-left: 30px;
+}
+.ticker .moving a:hover {
+  text-decoration: underline;
+}
+
+/* ------------------------------------ */
+
+.owl-prev > span {
+  position: absolute;
+  top: 105px;
+  left: -19px;
+  font-size: 60px;
+  color: gray;
+}
+
+.owl-next > span {
+  position: absolute;
+  top: 105px;
+  font-size: 60px;
+  color: gray;
+}
