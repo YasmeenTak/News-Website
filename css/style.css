@@ -122,7 +122,6 @@ nav.shift ul li a:hover:after {
   background-color: #128bd3;
   color: white;
   padding: 5px;
-
 }
 
 .theNewsTitle {
@@ -379,7 +378,6 @@ footer {
   padding: 0;
   margin: 0;
   display: flex;
-  
 }
 
 .ticker__item {
@@ -389,3 +387,17 @@ footer {
 }
 
 /* ------------------------------------------- */
+
+.authorName {
+  font-size: x-small;
+  color: #73a1c2;
+}
+
+.reportsCardTitle {
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
