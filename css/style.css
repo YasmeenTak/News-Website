@@ -428,9 +428,35 @@ footer {
   padding: 15px 1px 0px 1px;
 }
 
-.playAudio>audio{
+.playAudio > audio {
   position: absolute;
-  top:24px;
+  top: 24px;
   right: 5px;
   width: 95%;
+}
+
+/* ------------------------------------------Sport----------------------------------------------------------- */
+.textCardS1 {
+  color: #707070;
+  text-align: justify;
+  font-weight: bold;
+}
+
+.cardTitleS {
+  font-size: medium;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.dateCard {
+  position: absolute;
+  bottom: 115px;
+  right: 15px;
+}
+.dateCard > small {
+  color: white;
 }
