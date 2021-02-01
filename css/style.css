@@ -57,7 +57,10 @@ nav.shift ul li a:hover:after {
 }
 
 /*End navbar */
-
+.mainTitle {
+  font-weight: bold;
+  color: black;
+}
 .moreDropdown {
   min-width: 8.5rem !important ;
 }
@@ -124,11 +127,14 @@ nav.shift ul li a:hover:after {
   padding: 5px;
 }
 
-.theNewsTitle {
+.theNewsTitleDiv {
+  border: 1px solid #1253a0;
+}
+.theNewsTitleDiv > p {
+  text-align: center;
   color: #3a549a;
   font-weight: bold;
-  padding: 5px;
-  border: 1px solid #1253a0;
+  padding-top: 5px;
 }
 
 .fromTo {
@@ -286,6 +292,12 @@ footer {
   float: left;
   font-size: small;
 }
+.btnMore:focus {
+  outline: none;
+}
+.fa-chevron-circle-left {
+  margin-bottom: -2px;
+}
 .lastNewsw {
   width: 100%;
 }
@@ -336,7 +348,7 @@ footer {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 9; /* number of lines to show */
+  -webkit-line-clamp: 8; /* number of lines to show */
   -webkit-box-orient: vertical;
   color: #707070;
 }
@@ -400,4 +412,25 @@ footer {
   display: -webkit-box;
   -webkit-line-clamp: 2; /* number of lines to show */
   -webkit-box-orient: vertical;
+}
+
+.lastNewsTitle,
+.cardSportTitle {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.socialSlider {
+  background-color: white;
+  padding: 15px 1px 0px 1px;
+}
+
+.playAudio>audio{
+  position: absolute;
+  top:24px;
+  right: 5px;
+  width: 95%;
 }

@@ -41,17 +41,17 @@
     </style>
     <div class="contadiner-fluid allNav">
       <div class="row p-0 m-0">
-        <div class="col-2 logoDiv">
+        <div class="col-md-2 col-sm-12 logoDiv">
           <div class="logoImg mb-4">
-            <img src="img/logo.png" alt="logo" class="img-fluid" />
+            <img src="img/logo.png" alt="logo" class="w-100" />
           </div>
           <h3 class="logoTitle">منكم وإليكم</h3>
         </div>
 
         <!------------------------------------------ Navbar start ------------------------------------------------->
-        <div class="col-10 p-0 m-0">
+        <div class="col-md-10 col-sm-12 p-0 m-0">
           <div class="row p-0 m-0 aboveNav">
-            <div class="col-8 p-0 m-0">
+            <div class="col-md-8 col-sm-12 p-0 m-0">
               <img alt="ads1" src="img/ads1.jpg" class="ads1" />
             </div>
             <div
@@ -156,10 +156,12 @@
       </div>
     </div>
 
-    <div class="contadiner-fluid">
-      <div class="row p-0 m-0 mt-3 theNewsDiv">
-        <div class="col-lg-1 sm-2 theNewsTitle">موجز الأخبار</div>
-        <div class="col-lg-11 sm-10 newsDetails">
+    <div class="container-fluid">
+      <div class="row mt-3">
+        <div class="col-md-1 col-sm-2 theNewsTitleDiv  ">
+          <p>موجز الاخبار</p>
+        </div>
+        <div class="col-md-11 col-sm-10 newsDetails">
           <div class="ticker__viewport">
             <ul class="ticker__list" data-ticker="list">
               <li class="ticker__item" data-ticker="item">
@@ -295,13 +297,13 @@
                 src="img/music.png"
                 class="fromToImg img-responsive"
               />
-              <!-- <div class="playMusicDiv w-50">
+              <div class="playAudio">
                 <audio controls>
                   <source src="horse.ogg" type="audio/ogg" />
                   <source src="horse.mp3" type="audio/mpeg" />
                   Your browser does not support the audio element.
                 </audio>
-              </div> -->
+              </div>
               <!-- <div class="playMusicDiv">
                 <img
                   alt="music"
@@ -346,14 +348,16 @@
     <div class="container mb-5">
       <div class="row p-0 m-0">
         <div class="col-lg-4 col-md-12 col-sm-12 p-0 m-0">
-          <p>آخر الأخبار</p>
+          <p class="mainTitle">آخر الأخبار</p>
           <div class="card col p-3">
             <div class="row p-0 m-0">
               <div class="col-4">
                 <img src="img/card1.png" class="w-100" />
               </div>
               <div class="col-8">
-                <p>15 وفاة و815 إصابة جديدة بفيروس كورونا</p>
+                <p class="lastNewsTitle">
+                  15 وفاة و815 إصابة جديدة بفيروس كورونا
+                </p>
               </div>
             </div>
           </div>
@@ -363,7 +367,9 @@
                 <img src="img/card2.png" class="w-100" />
               </div>
               <div class="col-8">
-                <p>"بتسيلم": إسرائيل دولة فصل عنصري "أبارتهايد"</p>
+                <p class="lastNewsTitle">
+                  "بتسيلم": إسرائيل دولة فصل عنصري "أبارتهايد"
+                </p>
               </div>
             </div>
           </div>
@@ -373,7 +379,9 @@
                 <img src="img/card3.png" class="w-100" />
               </div>
               <div class="col-8">
-                <p>تشييع جثمان الشهيد محمد صلاح الدين في بلدة حزما</p>
+                <p class="lastNewsTitle">
+                  تشييع جثمان الشهيد محمد صلاح الدين في بلدة حزما
+                </p>
               </div>
             </div>
           </div>
@@ -408,7 +416,7 @@
 
         <div class="col-lg-4 col-md-6 col-sm-12 p-0 m-0">
           <div class="col" style="width: 50rem">
-            <p>رياضة</p>
+            <p class="mainTitle">رياضة</p>
 
             <div class="card cardHightSport">
               <img src="img/cardSport.png" class="card-img-top" alt="sport" />
@@ -451,7 +459,7 @@
 
         <div class="col-lg-4 col-md-6 col-sm-12 p-0 m-0">
           <div class="col">
-            <p>التاسعة صباحًا</p>
+            <p class="mainTitle">التاسعة صباحًا</p>
 
             <div class="videoDiv mb-3">
               <video width="330" height="220" controls>
@@ -492,7 +500,7 @@
       <div class="row">
         <div class="col-lg-4 col-md-6 col-sm-12 p-0 m-0">
           <div class="col" style="width: 50rem">
-            <p>تكنولوجيا</p>
+            <p class="mainTitle">تكنولوجيا</p>
 
             <div class="card cardSameHight">
               <img src="img/techCard1.png" class="card-img-top" alt="sport" />
@@ -534,7 +542,7 @@
 
         <div class="col-lg-4 col-md-6 col-sm-12 p-0 m-0">
           <div class="col" style="width: 50rem">
-            <p>ثقافة وفن</p>
+            <p class="mainTitle">ثقافة وفن</p>
 
             <div class="card cardSameHight">
               <img src="img/artCard1.png" class="card-img-top" alt="sport" />
@@ -575,7 +583,7 @@
         <!------------------------------------------------------------------------------->
         <div class="col-lg-4 col-md-6 col-sm-12 p-0 m-0">
           <div class="col">
-            <p>فشة خلق</p>
+            <p class="mainTitle">فشة خلق</p>
 
             <div class="card fashaCard">
               <img src="img/fashaCard.png" class="card-img-top" alt="..." />
@@ -585,6 +593,11 @@
                   فوليبتاتيم أكيسأنتييوم دولاريمكيو لايودانتيوم,توتام ريم
                   أبيرأم,أيكيو أبسا كيواي أب أللو أنفينتوري فيرأتاتيس ايت كياسي
                   أرشيتيكتو بيتاي فيتاي ديكاتا سيونت أكسبليكابو. نيمو أنيم أبسام
+                  فوليوباتاتيم كيواي فوليوبتاس سايت أسبيرناتشر أيوت أودايت أيوت
+                  فيوجايت, سيد كيواي كونسيكيونتشر ماجناي دولارس أيوس كيواي
+                  راتاشن فوليوبتاتيم سيكيواي نيسكايونت. نيكيو بوررو كيوايسكيوم
+                  ايست,كيواي دولوريم ايبسيوم كيوا دولار سايت أميت,
+                  كونسيكتيتيور,أديبايسكاي فيلايت, سيد كيواي نون نيومكيوام ايايوس
                 </p>
               </div>
             </div>
@@ -612,7 +625,7 @@
     <div class="container mb-5">
       <div class="row">
         <div class="col-lg-8">
-          <p>التقارير</p>
+          <p class="mainTitle">التقارير</p>
           <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 p-0 m-0">
               <div class="col" style="width: 50rem">
@@ -660,7 +673,7 @@
         <!-- --------------------------------------------------------- -->
         <div class="col-lg-4 col-md-6 col-sm-12 p-0 m-0">
           <div class="col reportsCard">
-            <p>مقالات</p>
+            <p class="mainTitle">مقالات</p>
 
             <div class="card col p-3">
               <div class="row p-0 m-0">
@@ -720,11 +733,11 @@
     <div class="container mb-5">
       <div class="row">
         <div class="col-lg-6 col-md-12 col-sm-12 h-100">
-          <p>قضية رأي عام</p>
+          <p class="mainTitle">قضية رأي عام</p>
           <div class="card">
             <img src="img/lastCard1.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">
+              <h5 class="card-title cardSportTitle">
                 ترامب يستخف بإجراءات عزله ومشرّعون جمهوريون يدعمون محاكمته
               </h5>
               <p class="card-text textCard6">
@@ -738,11 +751,11 @@
           </div>
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12 h-100">
-          <p>على الدرب</p>
+          <p class="mainTitle">على الدرب</p>
           <div class="card">
             <img src="img/lastCard2.png" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">
+              <h5 class="card-title cardSportTitle">
                 ترامب يستخف بإجراءات عزله ومشرّعون جمهوريون يدعمون محاكمته
               </h5>
               <p class="card-text textCard6">
@@ -761,7 +774,8 @@
     <div class="container">
       <div class="row">
         <div class="col">
-          <div class="owl-carousel" style="direction: ltr">
+          <p class="mainTitle">سوشيليات</p>
+          <div class="owl-carousel socialSlider" style="direction: ltr">
             <div><img src="img/social1.png" alt="" /></div>
             <div><img src="img/social2.png" alt="" /></div>
             <div><img src="img/social3.png" alt="" /></div>

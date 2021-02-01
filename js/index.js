@@ -1,27 +1,24 @@
 $(function () {
   $('.owl-carousel').owlCarousel({
     loop: true,
-    margin: 10,
+    margin: 50,
     nav: true,
+    dots: false,
     responsiveClass: true,
     responsive: {
       0: {
         items: 1,
-        nav: true,
       },
       600: {
         items: 3,
-        nav: true,
       },
       1000: {
         items: 3,
-        nav: true,
         loop: false,
       },
     },
   });
 });
-
 
 var $ticker = $('[data-ticker="list"]'),
   tickerItem = '[data-ticker="item"]';
