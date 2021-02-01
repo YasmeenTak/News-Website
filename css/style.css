@@ -122,6 +122,7 @@ nav.shift ul li a:hover:after {
   background-color: #128bd3;
   color: white;
   padding: 5px;
+
 }
 
 .theNewsTitle {
@@ -347,113 +348,6 @@ footer {
 .fashaCard {
   min-height: 410px;
 }
-/* OUTER CONTAINER */
-.tcontainer {
-  width: 100%;
-  overflow: hidden; /* Hide scroll bar */
-}
-
-/* MIDDLE CONTAINER */
-.ticker-wrap {
-  width: 100%;
-  padding-left: 100%; /* Push contents to right side of screen */
-  background-color: #eee;
-}
-
-/* INNER CONTAINER */
-@keyframes ticker {
-  0% {
-    transform: translate3d(0, 0, 0);
-  }
-  100% {
-    transform: translate3d(-100%, 0, 0);
-  }
-}
-.ticker-move {
-  /* Basically move items from right side of screen to left in infinite loop */
-  display: inline-block;
-  white-space: nowrap;
-  padding-left: 100%;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-name: ticker;
-  animation-duration: 20s;
-}
-.ticker-move:hover {
-  animation-play-state: paused; /* Pause scroll on mouse hover */
-}
-
-/* ITEMS */
-.ticker-item {
-  display: inline-block; /* Lay items in a horizontal line */
-  padding: 0 2rem;
-}
-
-/* ------------------------ */
-
-@import url(https://fonts.googleapis.com/earlyaccess/alefhebrew.css);
-
-@keyframes ticker {
-  0% {
-    transform: translate3d(-150%, 0, 0);
-  }
-  100% {
-    transform: translate3d(0, 0, 0);
-  }
-}
-.wrp {
-  width: 90%;
-  overflow: hidden;
-  height: 4rem;
-  margin: 0 auto;
-}
-body {
-  position: relative;
-  background-color: #eee;
-  font-weight: 800;
-  font-family: 'Alef Hebrew', “Helvetica Neue”, Helvetica, Arial, sans-serif;
-}
-.ticker-wrap {
-  position: relative;
-  overflow: hidden;
-  height: 4rem;
-  background-color: #fff;
-  padding-left: 100%;
-  /* // offset items to begin */
-  box-sizing: border-box;
-  display: inline-block;
-  /*border: 4px dashed purple;*/
-}
-
-.ticker {
-  overflow: hidden;
-  box-sizing: border-box;
-  display: inline-block;
-  height: 4rem;
-  line-height: 4rem;
-  white-space: nowrap;
-  padding-right: -100%;
-}
-.ticker-wrap:hover .ticker {
-  animation-play-state: paused;
-}
-.anim {
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-name: ticker;
-}
-.ticker .moving {
-  /*border: 4px dashed red;*/
-}
-.ticker .moving a {
-  text-decoration: none;
-  color: #333;
-  cursor: pointer;
-  margin-left: 30px;
-}
-.ticker .moving a:hover {
-  text-decoration: underline;
-}
 
 /* ------------------------------------ */
 
@@ -471,3 +365,27 @@ body {
   font-size: 60px;
   color: gray;
 }
+/* ------------------news ticker---------------------- */
+
+.ticker__viewport {
+  background: #128bd3;
+  color: #fff;
+  overflow: hidden;
+  direction: rtl;
+}
+
+.ticker__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  
+}
+
+.ticker__item {
+  display: inline-block;
+  white-space: nowrap;
+  padding-right: 40px;
+}
+
+/* ------------------------------------------- */
