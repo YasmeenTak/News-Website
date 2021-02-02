@@ -460,3 +460,28 @@ footer {
 .dateCard > small {
   color: white;
 }
+
+/* ---------------------------------------News Details----------------------------------------------------- */
+.newsDetailsText {
+  text-align: justify;
+  color: #202020;
+  font-weight: bold;
+}
+
+.newsDetailsTitle {
+  font-weight: bold;
+}
+.relatedNewsTitle {
+  color: #202020;
+  font-size: small;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.adsNewsDetails {
+  width: 85%;
+  margin: auto;
+}
