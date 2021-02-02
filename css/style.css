@@ -471,6 +471,36 @@ footer {
 .moreNews div div .card-body {
   height: 109px;
 }
+
+/* .pagination {
+
+  
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 18px;
+  margin: 10px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border-radius: 50%;
+  background-color: white;
+
+}
+
+.pagination a.active {
+  background-color: #3a549a;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: white;
+}
+.paginationArrow {
+  background-color: white;
+  color:#3a549a ;
+} */
 /* ---------------------------------------News Details----------------------------------------------------- */
 .newsDetailsText {
   text-align: justify;
@@ -494,4 +524,26 @@ footer {
 .adsNewsDetails {
   width: 85%;
   margin: auto;
+}
+
+.mainTitle span {
+  color: #707070;
+}
+
+.arrowIcon {
+  color: #3a549a;
+  font-size: small;
+  margin-bottom: 0px;
+}
+
+.shareIcon {
+  display: flex;
+  flex-direction: row-reverse;
+  color: #707070;
+  font-size: larger;
+  padding-left: 23px;
+}
+
+.dateTime {
+  color: #707070;
 }
