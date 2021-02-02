@@ -73,18 +73,7 @@ nav.shift ul li a:hover:after {
   margin: 5px;
   color: black;
 }
-/* 
-.dropdown-toggle::after {
-  display: inline-block;
-  margin-right: 0.255em;
-  vertical-align: 0.255em;
-  content: '';
-  color: white;
-  border-top: 0.3em solid;
-  border-left: 0.3em solid transparent;
-  border-bottom: 0;
-  border-right: 0.3em solid transparent;
-}  */
+
 .socialDiv {
   background-color: white;
   margin: auto;
@@ -125,10 +114,12 @@ nav.shift ul li a:hover:after {
   background-color: #128bd3;
   color: white;
   padding: 5px;
+  height: 40px;
 }
 
 .theNewsTitleDiv {
   border: 1px solid #1253a0;
+  height: 40px;
 }
 .theNewsTitleDiv > p {
   text-align: center;
@@ -136,7 +127,10 @@ nav.shift ul li a:hover:after {
   font-weight: bold;
   padding-top: 5px;
 }
-
+.textSlider {
+  text-align: right;
+  font-weight: bold;
+}
 .fromTo {
   background-color: white;
   border-radius: 10px;
@@ -168,7 +162,14 @@ nav.shift ul li a:hover:after {
   position: absolute;
   top: 40px;
 }
-
+.blogP,
+.todayWisdomP {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
 .blog {
   background-color: white;
   border-radius: 10px;
@@ -415,7 +416,8 @@ footer {
 }
 
 .lastNewsTitle,
-.cardSportTitle {
+.cardSportTitle,
+.fromToP {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -440,6 +442,11 @@ footer {
   color: #707070;
   text-align: justify;
   font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  -webkit-box-orient: vertical;
 }
 
 .cardTitleS {
@@ -461,6 +468,9 @@ footer {
   color: white;
 }
 
+.moreNews div div .card-body {
+  height: 109px;
+}
 /* ---------------------------------------News Details----------------------------------------------------- */
 .newsDetailsText {
   text-align: justify;
