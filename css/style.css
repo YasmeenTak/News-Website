@@ -69,8 +69,7 @@ nav.shift ul li a:hover:after {
   font-weight: bold;
 }
 .moreDropdown > .dropdown-item {
-  padding: 1px 6px 1px;
-  margin: 5px;
+  padding: 1px 8px 1px;
   color: black;
 }
 
@@ -225,8 +224,7 @@ nav.shift ul li a:hover:after {
   width: 100%;
 }
 .ads2 {
-  width: 82%;
-  height: 80%;
+  width: 100%;
   display: block;
   margin: auto;
 }
@@ -551,7 +549,7 @@ footer {
 }
 
 .adsNewsDetails {
-  width: 85%;
+  width: 100%;
   margin: auto;
 }
 
@@ -582,4 +580,3 @@ footer {
   height: 86px;
   object-fit: cover;
 }
-
