@@ -471,40 +471,10 @@ footer {
 .moreNews div div .card-body {
   height: 109px;
 }
+/* ***************pagination************** */
 
-/* .pagination {
-
-  
-}
-
-.pagination a {
-  color: black;
-  float: left;
-  padding: 8px 18px;
-  margin: 10px;
-  text-decoration: none;
-  transition: background-color 0.3s;
-  border-radius: 50%;
-  background-color: white;
-
-}
-
-.pagination a.active {
-  background-color: #3a549a;
-  color: white;
-}
-
-.pagination a:hover:not(.active) {
-  background-color: white;
-}
-.paginationArrow {
-  background-color: white;
-  color:#3a549a ;
-} */
 .pagination {
-}
-.pagination {
-	min-width: 30px;
+  min-width: 30px;
 }
 
 .pagination a {
@@ -512,7 +482,10 @@ footer {
   float: left;
   padding: 14px 16px;
   text-decoration: none;
-  transition: background-color 0.3s;
+  /* transition: background-color 0.3s; */
+  background-color: white;
+  font-size: x-small;
+  font-weight: bold;
   border: 1px solid #ddd;
   margin: 0 4px;
   border-radius: 50%;
@@ -525,7 +498,8 @@ footer {
 }
 
 .pagination a:hover:not(.active) {
-  background-color: white;
+  background-color: #3a549a;
+  color: white;
 }
 /* ---------------------------------------News Details----------------------------------------------------- */
 .newsDetailsText {
