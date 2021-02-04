@@ -343,15 +343,6 @@ footer {
   border-radius: 10px;
 }
 
-.fashaText {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 8; /* number of lines to show */
-  -webkit-box-orient: vertical;
-  color: #707070;
-}
-
 .fa-copyright {
   margin-bottom: -2px;
 }
@@ -406,10 +397,12 @@ footer {
 .card3Img {
   height: 200px;
 }
-.socialSlider div img {
+.socialSlider div div img {
   height: 341px;
 }
-
+.differentColorCard {
+  background-color: #f2f2f2 !important;
+}
 /* ------------------------------------------- */
 
 .authorName {
@@ -579,4 +572,62 @@ footer {
   width: 100%;
   height: 86px;
   object-fit: cover;
+}
+
+/* ****Hovering and styleing***** */
+
+.hoverSmallCard div a {
+  color: inherit;
+  text-decoration-line: none;
+  font-weight: bold;
+}
+.hoverSmallCard a:hover {
+  color: #3a549a;
+}
+.lastNewsRightSide div div a {
+  color: inherit;
+  text-decoration-line: none;
+  font-weight: bold;
+}
+.lastNewsRightSide div div a:hover {
+  color: #3a549a;
+  font-weight: bolder;
+}
+
+.aNoDecoration div a {
+  color: inherit;
+  text-decoration: none;
+}
+.aNoDecoration div a p:hover {
+  color: #3a549a;
+  font-weight: bold;
+}
+
+.fashaCardDiv div a {
+  color: inherit;
+  text-decoration-line: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 8; /* number of lines to show */
+  -webkit-box-orient: vertical;
+  color: #707070;
+}
+
+.fashaCardDiv div a:hover {
+  color: #3a549a;
+  font-weight: bold;
+}
+
+.reportsCard div div a {
+  color: inherit;
+  text-decoration-line: none;
+  font-weight: bold;
+}
+.reportsCard div div a:hover {
+  color: #3a549a;
+}
+
+.swiper-container {
+  background-color: #fff;
 }

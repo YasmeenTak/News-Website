@@ -22,6 +22,10 @@
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
     <link rel="stylesheet" type="text/css" href="css/owl.theme.default.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/swiper.css" />
+
     <link
       rel="stylesheet"
       type="text/css"
@@ -53,6 +57,7 @@
         </div>
 
         <!------------------------------------------ Navbar start ------------------------------------------------->
+
         <div class="col-md-10 col-sm-12 p-0 m-0">
           <div class="row p-0 m-0 aboveNav">
             <div class="col-md-8 col-sm-12 p-0 m-0">
@@ -162,10 +167,10 @@
 
     <div class="container-fluid">
       <div class="row mt-3">
-        <div class="col-lg-1 col-md-2 col-sm-2 theNewsTitleDiv">
+        <div class="col-md-2 col-sm-2 theNewsTitleDiv">
           <p>موجز الاخبار</p>
         </div>
-        <div class="col-lg-11 col-md-10 col-sm-10 newsDetails">
+        <div class="col-md-10 col-sm-10 newsDetails">
           <div class="ticker__viewport">
             <ul class="ticker__list" data-ticker="list">
               <li class="ticker__item" data-ticker="item">
@@ -268,7 +273,7 @@
             <img
               alt="From to"
               src="img/fromTo.png"
-              class="fromToImg img-responsive animate__animated animate__headShake"
+              class="fromToImg img-responsive animate__animated animate__headShake animate__delay-2s"
             />
             <p class="fromToTitle">
               من المواطن
@@ -287,7 +292,7 @@
               <img
                 alt="wisdom"
                 src="img/wisdom.png"
-                class="fromToImg img-responsive animate__animated animate__headShake"
+                class="fromToImg img-responsive animate__animated animate__headShake animate__delay-2s"
               />
               <p class="todayWisdomP">
                 كن أنت الخير في كل مكان و زمان واجعل لنفسك أثرا طيبا في قلوب
@@ -301,7 +306,7 @@
               <img
                 alt="music"
                 src="img/music.png"
-                class="fromToImg img-responsive animate__animated animate__headShake"
+                class="fromToImg img-responsive animate__animated animate__headShake animate__delay-2s"
               />
               <div class="playAudio">
                 <audio controls>
@@ -331,7 +336,7 @@
             <img
               alt="From to"
               src="img/wisdom.png"
-              class="fromToImg img-responsive animate__animated animate__headShake"
+              class="fromToImg img-responsive animate__animated animate__headShake animate__delay-2s"
             />
             <p class="fromToTitle">مقال ساخر</p>
             <p class="blogP">
@@ -353,62 +358,72 @@
     <!--------------------------------------------- 3 ---------------------------------------------->
 
     <div class="container mb-5">
-      <div class="row p-0 m-0">
-        <div class="col-lg-4 col-md-12 col-sm-12 p-0 m-0">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 col-sm-12 lastNewsRightSide">
           <p class="mainTitle">آخر الأخبار</p>
-          <div class="card col p-3">
-            <div class="row p-0 m-0">
+          <div class="card col p-3 wow fadeInRight" data-wow-delay=".2s">
+            <div class="row">
               <div class="col-4">
                 <img src="img/card1.png" class="w-100" />
               </div>
               <div class="col-8">
-                <p class="lastNewsTitle">
+                <a href="#" class="lastNewsTitle">
                   15 وفاة و815 إصابة جديدة بفيروس كورونا
-                </p>
+                </a>
               </div>
             </div>
           </div>
-          <div class="card col p-3">
-            <div class="row p-0 m-0">
+          <div
+            class="card col p-3 differentColorCard wow fadeInRight"
+            data-wow-delay=".6s"
+          >
+            <div class="row">
               <div class="col-4">
                 <img src="img/card2.png" class="w-100" />
               </div>
               <div class="col-8">
-                <p class="lastNewsTitle">
+                <a href="#" class="lastNewsTitle">
                   "بتسيلم": إسرائيل دولة فصل عنصري "أبارتهايد"
-                </p>
+                </a>
               </div>
             </div>
           </div>
-          <div class="card col p-3">
+          <div class="card col p-3 wow fadeInRight" data-wow-delay="1.0s">
             <div class="row p-0 m-0">
               <div class="col-4">
                 <img src="img/card3.png" class="w-100" />
               </div>
               <div class="col-8">
-                <p class="lastNewsTitle">
+                <a href="#" class="lastNewsTitle">
                   تشييع جثمان الشهيد محمد صلاح الدين في بلدة حزما
-                </p>
+                </a>
               </div>
             </div>
           </div>
-          <div class="card col p-3">
+          <div
+            class="card col p-3 differentColorCard wow fadeInRight"
+            data-wow-delay="1.4s"
+          >
             <div class="row p-0 m-0">
               <div class="col-4">
                 <img src="img/card4.png" class="w-100" />
               </div>
               <div class="col-8">
-                <p>حركة فتح والقيادة تنعيان المناضل يحيى طهبوب</p>
+                <a href="#" class="lastNewsTitle">
+                  حركة فتح والقيادة تنعيان المناضل يحيى طهبوب
+                </a>
               </div>
             </div>
           </div>
-          <div class="card col p-3">
+          <div class="card col p-3 wow fadeInRight" data-wow-delay="1.8s">
             <div class="row p-0 m-0">
               <div class="col-4">
                 <img src="img/card5.png" class="w-100" />
               </div>
               <div class="col-8">
-                <p>الخارجية تعلن عن توفير رحلة جديدة إلى اسطنبول</p>
+                <a href="#" class="lastNewsTitle">
+                  الخارجية تعلن عن توفير رحلة جديدة إلى اسطنبول
+                </a>
               </div>
             </div>
           </div>
@@ -421,7 +436,10 @@
         </div>
         <!------------------------------------------------>
 
-        <div class="col-lg-4 col-md-6 col-sm-12 p-0 m-0">
+        <div
+          class="col-lg-4 col-md-6 col-sm-12 p-0 m-0 wow fadeInUp"
+          data-wow-delay=".1s"
+        >
           <div class="col" style="width: 50rem">
             <p class="mainTitle">رياضة</p>
 
@@ -431,30 +449,32 @@
                 class="card-img-top techImgs"
                 alt="sport"
               />
-              <div class="card-body p-2">
-                <p class="cardSportTitle">
-                  "إنجاز خارق".. هدف وحيد يفصل رونالدو عن لقب هداف التاريخ
-                </p>
-                <p class="textMaxLine">
-                  روما- معا- كعادته دائما يحطم البرتغالي كريستيانو رونالدو
-                  الأرقام القياسية في لعبة كرة القدم، ولكن نجم يوفنتوس كان على
-                  موعد مع رقم من نوع آخر يوم الأحد ... قراءة المزيد
-                </p>
+              <div class="card-body p-2 differentColorCard aNoDecoration">
+                <div>
+                  <a href="#">
+                    <p class="cardSportTitle">
+                      "إنجاز خارق".. هدف وحيد يفصل رونالدو عن لقب هداف التاريخ
+                    </p>
+                    <p class="textMaxLine">
+                      روما- معا- كعادته دائما يحطم البرتغالي كريستيانو رونالدو
+                      الأرقام القياسية في لعبة كرة القدم، ولكن نجم يوفنتوس كان
+                      على موعد مع رقم من نوع آخر يوم الأحد ... قراءة المزيد
+                    </p>
+                  </a>
+                </div>
               </div>
             </div>
 
-            <div>
-              <div class="card col p-3 a">
-                <div class="row p-0 m-0">
-                  <div class="col-4">
-                    <img src="img/cardSport2.png" class="w-100" />
-                  </div>
-                  <div class="col-8">
-                    <p id="cardMaxLine">
-                      ولد علي: نتطلع إلى الوصول إلى أعلى مستوياتنا قبيل مواجهة
-                      سنغافورة
-                    </p>
-                  </div>
+            <div class="card col p-3 hoverSmallCard">
+              <div class="row p-0 m-0">
+                <div class="col-4">
+                  <img src="img/cardSport2.png" class="w-100" />
+                </div>
+                <div class="col-8">
+                  <a href="#" id="cardMaxLine">
+                    ولد علي: نتطلع إلى الوصول إلى أعلى مستوياتنا قبيل مواجهة
+                    سنغافورة
+                  </a>
                 </div>
               </div>
             </div>
@@ -468,7 +488,10 @@
         </div>
         <!------------------------------------------------>
 
-        <div class="col-lg-4 col-md-6 col-sm-12 p-0 m-0">
+        <div
+          class="col-lg-4 col-md-6 col-sm-12 p-0 m-0 wow fadeInDown"
+          data-wow-delay=".1s"
+        >
           <div class="col">
             <p class="mainTitle">التاسعة صباحًا</p>
 
@@ -491,7 +514,6 @@
         </div>
       </div>
     </div>
-    <!--------------------------------------------- 3 ---------------------------------------------->
 
     <!--------------------------------------------- ads ---------------------------------------------->
     <div class="container mb-5">
@@ -504,12 +526,14 @@
         </div>
       </div>
     </div>
-    <!--------------------------------------------- ads ---------------------------------------------->
 
-    <!--------------------------------------------- 3 ---------------------------------------------->
+    <!---------------------------------------------3---------------------------------------------->
     <div class="container mb-5">
       <div class="row">
-        <div class="col-lg-4 col-md-6 col-sm-12 p-0 m-0">
+        <div
+          class="col-lg-4 col-md-6 col-sm-12 wow fadeIn"
+          data-wow-delay=".2s"
+        >
           <div class="col" style="width: 50rem">
             <p class="mainTitle">تكنولوجيا</p>
 
@@ -519,28 +543,32 @@
                 class="card-img-top techImgs"
                 alt="sport"
               />
-              <div class="card-body p-2">
-                <p class="cardSportTitle">
-                  “واتساب” بعد التحديث الجديد .. اكتشاف ثغرة كبيرة
-                </p>
-                <p class="textMaxLine">
-                  معا -بدأ عملاق محركات البحث، غوغل” في فهرسة مجموعات التواصل
-                  عبر تطبيق “واتساب”، وإظهارها إلى العامة، مما يعني القضاء على
-                  جانب كبير ... قراءة المزيد
-                </p>
+              <div class="card-body p-2 aNoDecoration">
+                <div>
+                  <a href="#">
+                    <p class="cardSportTitle">
+                      “واتساب” بعد التحديث الجديد .. اكتشاف ثغرة كبيرة
+                    </p>
+                    <p class="textMaxLine">
+                      معا -بدأ عملاق محركات البحث، غوغل” في فهرسة مجموعات
+                      التواصل عبر تطبيق “واتساب”، وإظهارها إلى العامة، مما يعني
+                      القضاء على جانب كبير ... قراءة المزيد
+                    </p>
+                  </a>
+                </div>
               </div>
             </div>
 
             <div>
-              <div class="card col p-3 a">
+              <div class="card col p-3 differentColorCard hoverSmallCard">
                 <div class="row p-0 m-0">
                   <div class="col-4">
                     <img src="img/techCard2.png" class="w-100" />
                   </div>
                   <div class="col-8">
-                    <p id="cardMaxLine">
+                    <a href="#" id="cardMaxLine">
                       لماذا يعتبر هذا التطبيق البديل الأفضل لواتساب؟
-                    </p>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -555,52 +583,61 @@
         </div>
         <!------------------------------------------------------------------------------->
 
-        <div class="col-lg-4 col-md-6 col-sm-12 p-0 m-0">
+        <div class="col-lg-4 col-md-6 col-sm-12">
           <div class="col" style="width: 50rem">
             <p class="mainTitle">ثقافة وفن</p>
-
-            <div class="card cardSameHight">
-              <img
-                src="img/artCard1.png"
-                class="card-img-top techImgs"
-                alt="sport"
-              />
-              <div class="card-body p-2">
-                <p class="cardSportTitle">
-                  بمناسبة اليوم العالمي للمسرح- المحاكاة الأرسطية وتغريب بريخت
-                </p>
-                <p class="textMaxLine">
-                  إن المدارس الأدبية ؛ الكلاسيكية، الرومانسية، والواقعية تصوغ كل
-                  منها المتطلبات الجمالية والفنية، لحقبة تاريخية محددة، ولنظام
-                  إجتماعي في مرحلة خاصة ... قراءة المزيد
-                </p>
-              </div>
-            </div>
-
-            <div>
-              <div class="card col p-3 a">
-                <div class="row p-0 m-0">
-                  <div class="col-4">
-                    <img src="img/artCard2.png" class="w-100" />
-                  </div>
-                  <div class="col-8">
-                    <p id="cardMaxLine">
-                      وزارة الثقافة تنعى المخرج السوري حاتم علي
-                    </p>
+            <div class="wow fadeIn" data-wow-delay=".2s">
+              <div class="card cardSameHight">
+                <img
+                  src="img/artCard1.png"
+                  class="card-img-top techImgs"
+                  alt="sport"
+                />
+                <div class="card-body p-2 differentColorCard aNoDecoration">
+                  <div>
+                    <a href="#">
+                      <p class="cardSportTitle">
+                        بمناسبة اليوم العالمي للمسرح- المحاكاة الأرسطية وتغريب
+                        بريخت
+                      </p>
+                      <p class="textMaxLine">
+                        إن المدارس الأدبية ؛ الكلاسيكية، الرومانسية، والواقعية
+                        تصوغ كل منها المتطلبات الجمالية والفنية، لحقبة تاريخية
+                        محددة، ولنظام إجتماعي في مرحلة خاصة ... قراءة المزيد
+                      </p></a
+                    >
                   </div>
                 </div>
               </div>
-            </div>
-            <div>
-              <button class="btnMore mt-2">
-                المزيد
-                <i class="fas fa-chevron-circle-left"></i>
-              </button>
+
+              <div>
+                <div class="card col p-3 hoverSmallCard">
+                  <div class="row p-0 m-0">
+                    <div class="col-4">
+                      <img src="img/artCard2.png" class="w-100" />
+                    </div>
+                    <div class="col-8">
+                      <a href="#" id="cardMaxLine">
+                        وزارة الثقافة تنعى المخرج السوري حاتم علي
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <button class="btnMore mt-2">
+                  المزيد
+                  <i class="fas fa-chevron-circle-left"></i>
+                </button>
+              </div>
             </div>
           </div>
         </div>
         <!------------------------------------------------------------------------------->
-        <div class="col-lg-4 col-md-6 col-sm-12 p-0 m-0">
+        <div
+          class="col-lg-4 col-md-6 col-sm-12 wow fadeIn"
+          data-wow-delay=".2s"
+        >
           <div class="col">
             <p class="mainTitle">فشة خلق</p>
 
@@ -610,25 +647,27 @@
                 class="card-img-top techImgs"
                 alt="news"
               />
-              <div class="card-body">
-                <p class="card-text fashaText">
-                  "سيت يتبيرسبايكياتيس يوندي أومنيس أستي ناتيس أيررور سيت
-                  فوليبتاتيم أكيسأنتييوم دولاريمكيو لايودانتيوم,توتام ريم
-                  أبيرأم,أيكيو أبسا كيواي أب أللو أنفينتوري فيرأتاتيس ايت كياسي
-                  أرشيتيكتو بيتاي فيتاي ديكاتا سيونت أكسبليكابو. نيمو أنيم أبسام
-                  فوليوباتاتيم كيواي فوليوبتاس سايت أسبيرناتشر أيوت أودايت أيوت
-                  فيوجايت, سيد كيواي كونسيكيونتشر ماجناي دولارس أيوس كيواي
-                  راتاشن فوليوبتاتيم سيكيواي نيسكايونت. نيكيو بوررو كيوايسكيوم
-                  ايست,كيواي دولوريم ايبسيوم كيوا دولار سايت أميت,
-                  كونسيكتيتيور,أديبايسكاي فيلايت, سيد كيواي نون نيومكيوام ايايوس
-                </p>
+              <div class="card-body fashaCardDiv">
+                <div>
+                  <a href="#" class="card-text fashaText">
+                    "سيت يتبيرسبايكياتيس يوندي أومنيس أستي ناتيس أيررور سيت
+                    فوليبتاتيم أكيسأنتييوم دولاريمكيو لايودانتيوم,توتام ريم
+                    أبيرأم,أيكيو أبسا كيواي أب أللو أنفينتوري فيرأتاتيس ايت
+                    كياسي أرشيتيكتو بيتاي فيتاي ديكاتا سيونت أكسبليكابو. نيمو
+                    أنيم أبسام فوليوباتاتيم كيواي فوليوبتاس سايت أسبيرناتشر أيوت
+                    أودايت أيوت فيوجايت, سيد كيواي كونسيكيونتشر ماجناي دولارس
+                    أيوس كيواي راتاشن فوليوبتاتيم سيكيواي نيسكايونت. نيكيو بوررو
+                    كيوايسكيوم ايست,كيواي دولوريم ايبسيوم كيوا دولار سايت أميت,
+                    كونسيكتيتيور,أديبايسكاي فيلايت, سيد كيواي نون نيومكيوام
+                    ايايوس
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!--------------------------------------------- 3 ---------------------------------------------->
 
     <!--------------------------------------------- ads ---------------------------------------------->
     <div class="container mb-5">
@@ -641,13 +680,12 @@
         </div>
       </div>
     </div>
-    <!--------------------------------------------- ads ---------------------------------------------->
 
-    <!--------------------------------------------- 3 ---------------------------------------------->
+    <!--------------------------------------------- 4 ---------------------------------------------->
 
     <div class="container mb-5">
       <div class="row">
-        <div class="col-lg-8">
+        <div class="col-lg-8 wow fadeInRight">
           <p class="mainTitle">التقارير</p>
           <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 p-0 m-0">
@@ -658,10 +696,15 @@
                     class="card-img-top reportsImg"
                     alt="reports"
                   />
-                  <div class="card-body p-2">
-                    <p class="cardSportTitle">
-                      بدء اجتماعات"الرباعية" لتحريك عملية السلام في الشرق الأوسط
-                    </p>
+                  <div class="card-body p-2 aNoDecoration">
+                    <div>
+                      <a href="#">
+                        <p class="cardSportTitle">
+                          بدء اجتماعات"الرباعية" لتحريك عملية السلام في الشرق
+                          الأوسط
+                        </p></a
+                      >
+                    </div>
                   </div>
                 </div>
               </div>
@@ -676,11 +719,15 @@
                     class="card-img-top reportsImg"
                     alt="reports"
                   />
-                  <div class="card-body p-2">
-                    <p class="cardSportTitle">
-                      إسرائيل: المصابون بكورونا المتحور في بريطانيا يشكلون حوالي
-                      20٪ من الإصابات
-                    </p>
+                  <div class="card-body p-2 aNoDecoration">
+                    <div>
+                      <a href="#">
+                        <p class="cardSportTitle">
+                          إسرائيل: المصابون بكورونا المتحور في بريطانيا يشكلون
+                          حوالي 20٪ من الإصابات
+                        </p></a
+                      >
+                    </div>
                   </div>
                 </div>
               </div>
@@ -694,7 +741,7 @@
           </div>
         </div>
         <!-- --------------------------------------------------------- -->
-        <div class="col-lg-4 col-md-6 col-sm-12 p-0 m-0">
+        <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInLeft">
           <div class="col reportsCard">
             <p class="mainTitle">مقالات</p>
 
@@ -704,35 +751,35 @@
                   <img src="img/card1.png" class="w-100" />
                 </div>
                 <div class="col-8">
-                  <p class="reportsCardTitle">
+                  <a href="#" class="reportsCardTitle">
                     15 وفاة و815 إصابة جديدة بفيروس كورونا
-                  </p>
+                  </a>
                   <p class="authorName">اسم الكاتب</p>
                 </div>
               </div>
             </div>
-            <div class="card col p-3">
-              <div class="row p-0 m-0">
+            <div class="card col p-3 differentColorCard">
+              <div class="row">
                 <div class="col-4">
                   <img src="img/card2.png" class="w-100" />
                 </div>
                 <div class="col-8">
-                  <p class="reportsCardTitle">
+                  <a href="#" class="reportsCardTitle">
                     "بتسيلم": إسرائيل دولة فصل عنصري "أبارتهايد"
-                  </p>
+                  </a>
                   <p class="authorName">اسم الكاتب</p>
                 </div>
               </div>
             </div>
             <div class="card col p-3">
-              <div class="row p-0 m-0">
+              <div class="row">
                 <div class="col-4">
                   <img src="img/card3.png" class="w-100" />
                 </div>
                 <div class="col-8">
-                  <p class="reportsCardTitle">
+                  <a href="#" class="reportsCardTitle">
                     تشييع جثمان الشهيد محمد صلاح الدين في بلدة حزما
-                  </p>
+                  </a>
                   <p class="authorName">اسم الكاتب</p>
                 </div>
               </div>
@@ -756,7 +803,7 @@
     </div>
     <div class="container mb-5">
       <div class="row">
-        <div class="col-lg-6 col-md-12 col-sm-12 h-100">
+        <div class="col-lg-6 col-md-12 col-sm-12 h-100 wow fadeInRight">
           <p class="mainTitle">قضية رأي عام</p>
           <div class="card mb-2">
             <img
@@ -764,21 +811,28 @@
               class="card-img-top card3Img"
               alt="news"
             />
-            <div class="card-body">
-              <h5 class="card-title cardSportTitle">
-                ترامب يستخف بإجراءات عزله ومشرّعون جمهوريون يدعمون محاكمته
-              </h5>
-              <p class="card-text textCard6">
-                قال الرئيس الأميركي دونالد ترامب -أمس الثلاثاء- إنه لا يشعر بأي
-                قلق من التعديل الـ25 الذي يتيح لنائبه وأعضاء إدارته إزاحته من
-                السلطة، وذلك بعد أن باشر مجلس النواب الذي يقوده الديمقراطيون
-                مناقشة تشريع للضغط على مايك بنس نائب الرئيس من أجل تفعيل ذلك
-                التعديل ... قراءة المزيد
-              </p>
+            <div class="card-body aNoDecoration">
+              <div>
+                <a href="#">
+                  <h5 class="card-title cardSportTitle">
+                    ترامب يستخف بإجراءات عزله ومشرّعون جمهوريون يدعمون محاكمته
+                  </h5>
+                  <p class="card-text textCard6">
+                    قال الرئيس الأميركي دونالد ترامب -أمس الثلاثاء- إنه لا يشعر
+                    بأي قلق من التعديل الـ25 الذي يتيح لنائبه وأعضاء إدارته
+                    إزاحته من السلطة، وذلك بعد أن باشر مجلس النواب الذي يقوده
+                    الديمقراطيون مناقشة تشريع للضغط على مايك بنس نائب الرئيس من
+                    أجل تفعيل ذلك التعديل ... قراءة المزيد
+                  </p>
+                </a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-6 col-md-12 col-sm-12 h-100">
+        <div
+          class="col-lg-6 col-md-12 col-sm-12 h-100 wow fadeInLeft"
+          data-wow-delay=".1s "
+        >
           <p class="mainTitle">على الدرب</p>
           <div class="card mb-2">
             <img
@@ -786,24 +840,29 @@
               class="card-img-top card3Img"
               alt="news"
             />
-            <div class="card-body">
-              <h5 class="card-title cardSportTitle">
-                ترامب يستخف بإجراءات عزله ومشرّعون جمهوريون يدعمون محاكمته
-              </h5>
-              <p class="card-text textCard6">
-                حنظلة هي أشهر الشخصيات التي رسمها ناجي العلي في كاريكاتيراته،
-                ويمثل صبياً في العاشرة من عمره. أدار حنظلة ظهره للقارئ وعقد يديه
-                خلف ظهره عام 1973م . أصبح حنظلة بمثابة توقيع ناجي العلي كما أصبح
-                رمزاً للهوية الفلسطينية. يقول ناجي العلي أن الصبي ذا العشرة
-                أعوام يمثل سنه حين أجبر على ... قراءة المزيد
-              </p>
+            <div class="card-body aNoDecoration">
+              <div>
+                <a href="#">
+                  <h5 class="card-title cardSportTitle">
+                    ترامب يستخف بإجراءات عزله ومشرّعون جمهوريون يدعمون محاكمته
+                  </h5>
+                  <p class="card-text textCard6">
+                    حنظلة هي أشهر الشخصيات التي رسمها ناجي العلي في
+                    كاريكاتيراته، ويمثل صبياً في العاشرة من عمره. أدار حنظلة
+                    ظهره للقارئ وعقد يديه خلف ظهره عام 1973م . أصبح حنظلة بمثابة
+                    توقيع ناجي العلي كما أصبح رمزاً للهوية الفلسطينية. يقول ناجي
+                    العلي أن الصبي ذا العشرة أعوام يمثل سنه حين أجبر على ...
+                    قراءة المزيد
+                  </p>
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
     <!-- -----------------سوشيليات------------------------- -->
-    <div class="container">
+    <!-- <div class="container">
       <div class="row">
         <div class="col">
           <p class="mainTitle">سوشيليات</p>
@@ -817,7 +876,37 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
+
+    <!-- ************************ -->
+    <section class="container">
+      <p class="mainTitle">سوشيليات</p>
+
+      <div class="swiper-container p-3 wow fadeIn" data-wow-delay=".1s">
+        <div class="swiper-wrapper socialSlider">
+          <div class="swiper-slide">
+            <div><img src="img/social1.png" alt="social" /></div>
+          </div>
+          <div class="swiper-slide">
+            <div><img src="img/social2.png" alt="social" /></div>
+          </div>
+          <div class="swiper-slide">
+            <div><img src="img/social3.png" alt="social" /></div>
+          </div>
+          <div class="swiper-slide">
+            <div><img src="img/social1.png" alt="social" /></div>
+          </div>
+          <div class="swiper-slide">
+            <div><img src="img/social2.png" alt="social" /></div>
+          </div>
+          <div class="swiper-slide">
+            <div><img src="img/social3.png" alt="social" /></div>
+          </div>
+        </div>
+        <div class="swiper-button-next" style="color: rgb(75, 74, 74)"></div>
+        <div class="swiper-button-prev" style="color: rgb(75, 74, 74)"></div>
+      </div>
+    </section>
     <!------------------------------------------ footer Start ------------------------------------------>
     <footer class="footer mt-5">
       <div class="container py-5">
@@ -895,6 +984,10 @@
     <script src="js/jquery-3.5.1.min.js"></script>
 
     <script src="js/index.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.js"
@@ -913,5 +1006,7 @@
     ></script>
     <script type="text/javascript" src="js/owl.carousel.js"></script>
     <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/swiper.min.js"></script>
   </body>
 </html>
