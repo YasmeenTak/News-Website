@@ -339,6 +339,9 @@ footer {
   font-weight: bold;
 }
 
+.cardBodyReports {
+  height: 79px;
+}
 .videoDiv > video {
   border-radius: 10px;
 }
