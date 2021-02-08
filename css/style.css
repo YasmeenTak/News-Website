@@ -397,7 +397,7 @@ footer {
 .card3Img {
   height: 200px;
 }
-.socialSlider div div img {
+.socialSlider div a img {
   height: 341px;
 }
 .differentColorCard {
@@ -571,7 +571,11 @@ footer {
 }
 .shareHover {
   display: none;
-} 
+}
+.imgA {
+  animation: zoomIn;
+  display: inline-block;
+}
 /*
 .shareIcon:hover + .shareHover {
   display: inline-block;
@@ -639,7 +643,6 @@ footer {
 .aNoDecoration div a h5:hover {
   color: #3a549a;
   font-weight: bold;
-  animation: zoomIn;
 }
 .fashaCardDiv div a {
   color: inherit;
