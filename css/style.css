@@ -474,6 +474,7 @@ footer {
   display: -webkit-box;
   -webkit-line-clamp: 3; /* number of lines to show */
   -webkit-box-orient: vertical;
+  padding-bottom: 1px;
 }
 
 .dateCard {
@@ -594,15 +595,34 @@ footer {
   font-weight: bolder;
 }
 
-.aNoDecoration div a {
+
+.lastNewsRightSide div div div a p:hover {
+  color: #3a549a;
+  font-weight: bolder;
+}
+
+
+
+
+.aNoDecoration div a{
   color: inherit;
   text-decoration: none;
 }
 .aNoDecoration div a p:hover {
   color: #3a549a;
   font-weight: bold;
-}
+  animation: zoomIn;
 
+}
+.aNoDecoration div a h5 {
+  color: inherit;
+  text-decoration: none;
+}
+.aNoDecoration div a h5:hover {
+  color: #3a549a;
+  font-weight: bold;
+  animation: zoomIn;
+}
 .fashaCardDiv div a {
   color: inherit;
   text-decoration-line: none;
