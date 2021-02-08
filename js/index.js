@@ -95,3 +95,10 @@ $(function () {
     },
   });
 });
+
+
+$(document).ready(function(){
+  $(".shareIcon").click(function(){
+    $(".shareHover").toggle();
+  });
+});
